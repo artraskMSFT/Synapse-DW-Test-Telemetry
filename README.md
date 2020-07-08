@@ -13,7 +13,7 @@ Conceptually, the Test Telemetry framework simply supports the logging of test d
 
 The picture below captures the intended use of the framework.  The way tests are driven is up to you, and can vary by scenario.  For any method of driving tests, simply wire in a few calls to the framework stored procedures, and the metrics needed for consistent measurement and analysis are captured.
 
-(assets/concept-lg.png)
+![alt tag](assets/concept-lg.png)
 
 Besides two scripts to create the framework in your target Synapse DW, this repository include two example test drivers. 
 
