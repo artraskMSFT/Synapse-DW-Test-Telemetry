@@ -1,6 +1,4 @@
 # Synapse-DW-Test-Telemetry
-Lightweight, simple framework for tracking and reporting test execution times.  Intended for Synapse benchmarking, performance testing, optimization, etc.
-
 The Synapse Test Telemetry framework is a lightweight set of tables and stored procedures that make it easy to instrument Synapse performance tests or benchmarks.
 
 You may be performing a competitive DW benchmark, a POC with/for a customer, or pre-deployment testing.  In all these cases, the importance of consistent measurement cannot be overstated.  And, the ability to easily visualize and analyze performance, perhaps through multiple changes in configuration or optimization, is extremely valuable.
