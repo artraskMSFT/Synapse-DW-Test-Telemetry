@@ -13,13 +13,13 @@ The picture below captures the intended use of the framework.  The way tests are
 
 ![alt tag](assets/concept-lg.png)
 
-Besides two scripts to create the framework in your target Synapse DW, this repository include two example test drivers. 
+Besides two scripts to create the framework in your target Synapse DW, this repository includes two example test drivers. 
 
 Example #1 is a SQL script which drives tests and is meant to be run in SSMS or Azure Data Studio in SQLCMD mode.
 
 Example #2 is a very simple C# console application that drives series of test scripts.
 
-To drive more full-featured testing, you can also use Adam Paternostro's Synapse Test Runner available in this repo.  The Synapse Test Runner supports both serial and multi-connection concurrent tests against Synapse, and it logs timings with the Test Telemetry Framework.
+To drive more full-featured testing, you can also use [Adam Paternostro's Synapse Test Runner](https://github.com/AdamPaternostro/Azure-SQL-DW-Synapse-Test-Case-Runner) available in this repo.  The Synapse Test Runner supports both serial and multi-connection concurrent tests against Synapse, and it logs timings with the Test Telemetry Framework.
 
 Finally, this repo include a starting Power BI report template that you can connect to your target DW and refresh to show your timings.  This report has some nice visualizations to examine the results of your tests.  But, it should be considered a tool more than a finished product.  Modify or add to the report to support your own understanding of your workload's performance, and to communicate results in the most effective way to your customer.
 
