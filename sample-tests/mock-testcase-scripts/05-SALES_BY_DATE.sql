@@ -1,2 +1,2 @@
-SELECT * FROM vwSalesByDate
+SELECT * FROM SalesByDate
 OPTION (LABEL = 'SalesByDate')

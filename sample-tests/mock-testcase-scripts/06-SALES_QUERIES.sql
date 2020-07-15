@@ -4,5 +4,5 @@ OPTION (LABEL = 'CountInternetSales');
 SELECT COUNT(*) FROM FactResellerSales
 OPTION (LABEL = 'CountResellerSales');
 
-SELECT COUNT(*) FROM vwSalesByDate
+SELECT COUNT(*) FROM SalesByDate
 OPTION (LABEL = 'AggSalesByDate')
