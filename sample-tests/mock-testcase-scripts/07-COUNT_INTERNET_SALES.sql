@@ -1,2 +1,2 @@
 SELECT COUNT(*) FROM FactInternetSales
-OPTION (LABEL = 'Placeholder')
+OPTION (LABEL = 'CountInternetSales')
