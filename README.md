@@ -23,7 +23,7 @@ To drive more full-featured testing, you can also use [Adam Paternostro's Synaps
 
 Finally, this repo includes a starting Power BI report template that you can connect to your target DW and refresh to show your timings.  This report has some nice visualizations to examine the results of your tests.  But, it should be considered a tool more than a finished product.  Modify or add to the report to support your own understanding of your workload's performance, and to communicate results in the most effective way to your customer.
 
-##Terminology
+## Terminology
 
 The tables, procs, and reports used in the framework use the following terminology to describe tests.  There is no single right set of terms that could be used; these are the ones used by this framework.
 
@@ -38,9 +38,9 @@ Test Case Run - one execution of a Test Case, with captured start time, end time
 
 
 
-##Assumptions
+## Assumptions
 
-###All SQL Statements Should use a Label
+### All SQL Statements Should use a Label
 To aid in accurate capture of SQL run in your tests, the framework looks for statements in sys.dm_pdw_exec_requests which have a non-NULL label (session id and time range are also used).
 
 Therefore, by convention, every statement in your test cases should have a label using the T-SQL OPTION (LABEL = 'xxxxxx') clause.
