@@ -43,7 +43,9 @@ Test Case Run - one execution of a Test Case, with captured start time, end time
 ### All SQL Statements Should use a Label
 To aid in accurate capture of SQL run in your tests, the framework looks for statements in sys.dm_pdw_exec_requests which have a non-NULL label (session id and time range are also used).
 
-Therefore, by convention, every statement in your test cases should have a label using the T-SQL OPTION (LABEL = 'xxxxxx') clause.
+Therefore, by convention, every statement in your test cases should have a label using the T-SQL OPTION (LABEL = 'xxxxxx') clause.  
+
+If desired, this assumption can be removed by commenting one line from the WHERE clause in one of the framework stored procedures (usp_logtestrun_end).
 
 
 
